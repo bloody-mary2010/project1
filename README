@@ -1,0 +1,18 @@
+Project Title:
+Decoding the stress for career choosing with effective learning 
+Theme:
+A lot students facing problems in choosing their subjects and career and facing a lot problems which might effect their future if not choosen correctly. 
+Solution Overview:
+The program inputs the interests and problems of students currently and gives output which eases the students stress in choosing their streams and subject choices for higher classes and careers and provides the schedule for subjects learning and easy time management management based on the preferences of the user.
+
+TECH STACK:
+*Editor used: Visual Studio Code
+*Site used for compilation and sharing : GitHub
+*Front end languages used: CSS and HTML
+*Back end languages used: Java
+Core features:-
+*time table
+*streams
+*career
+Challenges faced:-
+Merging of codes
