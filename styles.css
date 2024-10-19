@@ -1,0 +1,42 @@
+*{
+ margin:0; padding:0;  font-family: courier;
+}
+.banner{ width:100%;  height:100vh; background-image:linear-
+    gradient(white,aquamarine),url(https://media.istockphoto.com/id/1349343032/vector/abstract-pastel-holographic-blurred-grainy-gradient-background.jpg);
+background-size:cover;
+background-position:center;
+
+}
+.enterbutton{
+    width:85%;
+    margin: auto;
+    padding:35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.enterbutton ul li{
+list-style:none;
+display:inline-block;
+margin:0 20px;
+
+}
+.enterbutton ul li a {
+text-decoration:none; color:black; text-transform : uppercase;
+
+}
+.enterbutton ul li ::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:#009688;
+    position:absolute;
+    left:0;
+    bottom: --10px;
+    transition:0.55;}
+    .enterbutton ul li :hover::after{
+        width:100%
+    }
+    .content{ width:100%; position:absolute; top:50%; 
+        text-align:center; color:white; 
+    }
